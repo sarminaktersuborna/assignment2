@@ -1,0 +1,413 @@
+.container{
+    width:80%;
+    height:100%;
+    margin: 0px auto;
+}
+header{
+    padding: 30px 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 30px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav h3{
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+span{
+    color:#FF5400;
+}
+
+.explore{
+    background-image: url(../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+}
+.your-travel{
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+
+}
+.description{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+.btn-primary{
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+}
+.login6 input{
+    margin-top: 20px;
+    height: 50px;
+    border-style: outset;
+    border-radius: 10px;
+    background-color:#FF5400;
+    color: white;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+.service{
+    display:flex;
+    text-align: center;
+}
+.para1{
+    width:50%;
+}
+.img1{
+    width:50%;
+}
+.img-sec1{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+}
+.img-sec2{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding-top: 20px;
+}
+.img-sec3{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    padding-top: 20px;
+}
+ .destination{
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    color:black;
+    text-align: center;
+    padding-top: 70px;
+ }
+ .where-travel{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color:black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+.our-popular-tour{
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    color:black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.service{
+    padding-top: 70px;
+}
+.activites{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color:black;
+    line-height: 26px;
+}
+/* why choose us start */
+.destination2{
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    color:black;
+    text-align: center;
+    padding-top: 70px;
+}
+.where-travel2{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color:black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    /* why choose us end */
+   
+    /* card section start */
+.card{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    padding-top: 20px;
+}
+.card1{
+    background-color:snow;
+    height: 284px;
+    border-style: outset;
+    border-radius: 20px;
+
+}
+.card2{
+    background-color:rgba(221, 199, 199, 0.896);
+    height: 284px;
+    border-style: outset;
+    border-radius: 20px;
+}
+.handpick{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.hotel-des{
+    font-family: Mulish;
+    font-size: 16x;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 24px;
+    padding-left: 40px;
+    color: #5A5A5D;
+    padding-right:30px;
+}
+.icon{
+    font-size:80px;
+    color:#FF5400;
+    padding-bottom:15px;
+    padding-top: 25px;
+    padding-left: 40px;
+
+}
+.cardlast{
+    background-color:white;
+    height: 284px;
+    justify-content: center;
+    text-align: center;
+    width:500px; 
+    padding-left:350px;
+}
+.cardlast1{
+    gap:20px;
+    
+}
+.hotel-des2{
+    font-family: Mulish;
+    font-size: 16x;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 24px;
+    padding-left: 40px;
+    color: #5A5A5D;
+    padding-right:30px;
+    text-align: center;
+}
+
+    /* card section end */
+    /* newsletter start */
+.newsletter{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    padding-top: 100px;
+}
+.login{
+    display:flex;
+    flex-direction: column;
+}
+.newsletterform{
+    border-style: outset;
+    border-radius: 20px;
+    border-color:#FF5400;
+}
+.news1{
+    font-family: Mulish;
+    font-size: 24x;
+    font-weight: 800;
+    padding-bottom: 10px;
+    color: black;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right:30px;
+}
+.news2{
+    font-family: Mulish;
+    font-size: 16x;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color:#5A5A5D;
+    padding-left: 30px;
+    padding-right:30px;
+}
+.login input{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 50px;
+    border-style: outset;
+    border-radius: 10px;
+    background-color:azure;
+}
+.login2 input{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 50px;
+    border-style: outset;
+    border-radius: 10px;
+    background-color:#FF5400;
+    width:85%;
+    color: white;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+    /* newsletter end */
+   
+    /* footer section start */
+    .copywrite{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        color:#131318;
+        text-align: center;
+
+    }
+    .foot-des{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 300;
+        color:#131318;
+        text-align: center;
+
+
+    }
+    footer{
+        background-color: snow;
+    }
+    .footer-travel{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        
+    }
+    .footer-travel2{
+        margin-top: 20px;
+       align-items: end;
+        margin-right: 30px;
+
+    }
+    .footer-travel3{
+        font-family: Mulishr;
+        font-size: 32px;
+        font-weight: 800;
+        color:#131318;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .foot-img{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    /* footer section end */
+    /* responsive media queries */
+ /* mobile device */
+ @media  screen and (max-width: 600px) {
+    .container{
+        width:100%;
+        height:100%;
+        margin: 0px auto;
+    }
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 0px 0px 0px 0px;
+    }
+    .explore{
+        width: 100%;
+        text-align: center;
+        height:900px;
+       
+    }
+    .your-travel{
+        font-family: Mulish;
+        font-size: 32px;
+        font-weight: 400;
+        color: #FFFFFF;
+        padding: 100px 0px 0px 0px;
+
+    }
+    .our-popular-tour{
+        font-size:16px;
+    }
+    .activites ul{
+        line-height: 0%;
+    }
+    .img-sec1{
+        display:block;
+        align-items: center;
+        max-width:600px;
+    }
+    .img-sec2{
+        display:block;
+    }
+    .img-sec3{
+        display:block;
+    }
+    .newsletter{
+        display: block;
+    }
+    .card{
+        display: block;
+    }
+    .handpick{
+        font-size: 10px;
+        padding-bottom:5px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+    .icon{
+    padding-bottom:5px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+    }
+    .hotel-des{
+        padding-bottom:5px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+    .cardlast{
+        padding-bottom:5px;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-left:5px;
+    }
+    }
+    /* responsive media queries */
+
+ 
